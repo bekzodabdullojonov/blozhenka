@@ -79,3 +79,63 @@ footer {
 	text-decoration: no
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Медиазапрос для экранов шириной 600px и меньше (мобильные устройства) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  /* Уменьшаем отступы */
+  header, footer {
+    padding: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+/* Медиазапрос для экранов шириной 900px и меньше (планшеты и маленькие ноутбуки) */
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
