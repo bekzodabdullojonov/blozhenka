@@ -15,21 +15,21 @@ header {
 header h1 {
 	text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 5rem;
 	color: #333333;
 }
 
 header h2 {
 	text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 5rem;
 	color: #343434;
 }
 
 header h3 {
 	text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 5rem;
 	color: #343434;
 }
 
@@ -79,6 +79,7 @@ footer {
 	color: #333333;
 	text-decoration: no
 }
+
 
 
 
